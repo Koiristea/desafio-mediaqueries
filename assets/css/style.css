@@ -252,20 +252,23 @@ main {
         & .card-container {
             flex-wrap: wrap;
             display: flex;
-            width: 100%;
+            margin: auto;
+            width: 90%;
+            height: auto;
+            justify-content: space-between;
             & .card {
                 display: flex;
                 justify-content: center;
                 width: 22%;
-                height: 30vh;
+                height: 50%;
                 & img {
                     margin: 0 auto;
                     height: auto;
-                    width: 18.5vh;
+                    width: 80%;
                     display: flex;
                 }
                 & h3 {
-                    font-size: 3.7vh;
+                    font-size: 3vh;
                     width: auto;
                     display: flex;
                     justify-content: center;
@@ -273,10 +276,11 @@ main {
                 }
                 & button {
                     display: flex;
-                    font-size: 2vh;
-                    height: 12%;
-                    margin: 0 auto;
-                    width: 30%;
+                    font-size: 1.6vh;
+                    height: 0;
+                    padding: 2vh;
+                    margin: auto;
+                    width: 40%;
                     color: #ffff;
                     background-color: #311337;
                     border-radius: 10%;
@@ -312,14 +316,14 @@ main {
     @media (min-width: 576px) {
        .displace {
             font-size: 4vh;
-            margin-top: 18vh;
+            margin: 2vh auto 1vh auto;
             display: flex;
             height: auto;
             & p {
                 align-items: center;
-                margin: auto .1%;
+                margin: auto 4%;
                 padding: .6%;
-                height: 3vh;
+                height: 3.1vh;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             }
             & i {
