@@ -21,7 +21,7 @@
         width: auto;
         display: grid;
         grid-auto-columns: 1fr;
-        grid-template-columns: 0.3fr 1.7fr;
+        grid-template-columns: 0.4fr 1.6fr;
         grid-template-rows: 0.3fr 2fr 0.4fr;
         gap: 0px 0px;
         grid-template-areas:
@@ -69,32 +69,41 @@ nav {
         flex-direction: column;
         width: 100%;
         height: 100%;
+        font-size: 150%;
         & span {
+            height: 23%;
+            width: 95%;
             border-bottom: solid 2px #8c877b;
             display: flex;
             text-align: center;
-            margin: 0 10%;
+            margin: 0 auto;
             justify-content: center;
             align-items: center;
+            & i {
+                width: 30%;
+                font-size: 7.3vh;
+                margin: auto;
+                padding-right: 6px;
+            }
+            & h1 {
+                width: 70%;
+                margin: auto;
+                font-size: 5vh;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
         }
-        & i {
-            font-size: 72%;
-        }
-        & h1 {
-            margin: 9%;
-            font-size: 60%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+
         & button {
             display: none;
         }
         & menu {
+            width: 100%;
             display: flex;
             flex-direction: column;
             margin: 14% 0 0 10%;
             & a {
                 margin: 6% 0;
-                font-size: 70%;
+                font-size: 4vh;
                 font-family: Arial, Helvetica, sans-serif;
                 text-decoration: none;
                 color: #ffff;
@@ -138,16 +147,16 @@ form {
         display: flex;
         & h4 {
             margin-top: .5%;
-            font-size: 70%;
+            font-size: 3.9vh;
             height: 30%;
         }
         & select {
-            font-size: 60%;
+            font-size: 3.3vh;
             height: 35%;
             width: 80%;
             margin: auto;
             & option {
-                font-size: 100%;
+                font-size: 3vh;
             }
         }
     }
@@ -247,16 +256,16 @@ main {
             & .card {
                 display: flex;
                 justify-content: center;
-                width: 25%;
-                height: 60%;
+                width: 22%;
+                height: 30vh;
                 & img {
                     margin: 0 auto;
                     height: auto;
-                    width: 64%;
+                    width: 18.5vh;
                     display: flex;
                 }
                 & h3 {
-                    font-size: 60%;
+                    font-size: 3.7vh;
                     width: auto;
                     display: flex;
                     justify-content: center;
@@ -264,7 +273,7 @@ main {
                 }
                 & button {
                     display: flex;
-                    font-size: 15%;
+                    font-size: 2vh;
                     height: 12%;
                     margin: 0 auto;
                     width: 30%;
@@ -302,19 +311,19 @@ main {
 
     @media (min-width: 576px) {
        .displace {
-            font-size: 60%;
-            margin-top: 10%;
+            font-size: 4vh;
+            margin-top: 18vh;
             display: flex;
             height: auto;
             & p {
                 align-items: center;
                 margin: auto .1%;
                 padding: .6%;
-                height: 30%;
+                height: 3vh;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             }
             & i {
-                font-size: 140%;
+                font-size: 4.5vh;
                 margin: auto 1%;
             }
         }
@@ -355,19 +364,20 @@ footer {
         width: 100%;
         height: 100%;
         & .social {
+            display: flex;
             height: 100%;
-            margin: 0 auto;
-            font-size: 50px;
-            justify-content: space-between;
-            width: 30px;
+            justify-content: center;
+            margin: auto;
             & i {
-                font-size: 12px;
+                display: flex;
+                padding: 3vh;
+                font-size: 5.6vh;
             }
         }
         & h5 {
-            font-size: 30%;
+            font-size: 3vh;
             font-family: Arial, Helvetica, sans-serif;
-            margin: 1% auto;
+            margin: 1% auto 10% auto;
             height: 100%;
             display: flex;
             text-align: center;
