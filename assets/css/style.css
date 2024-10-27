@@ -305,6 +305,7 @@ main {
             font-size: 60%;
             margin-top: 10%;
             display: flex;
+            height: auto;
             & p {
                 align-items: center;
                 margin: auto .1%;
@@ -314,7 +315,7 @@ main {
             }
             & i {
                 font-size: 140%;
-                margin: 1.2% 1% auto 1%;
+                margin: auto 1%;
             }
         }
     }
