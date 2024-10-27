@@ -73,16 +73,16 @@ nav {
             border-bottom: solid 2px #8c877b;
             display: flex;
             text-align: center;
-            margin: 0 8px ;
+            margin: 0 10% ;
             justify-content: center;
             align-items: center;
         }
         & i {
-            font-size: 12px;
+            font-size: 72%;
         }
         & h1 {
-            margin: 10px;
-            font-size: 10px;
+            margin: 9%;
+            font-size: 60%;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         & button {
@@ -91,10 +91,10 @@ nav {
         & menu {
             display: flex;
             flex-direction: column;
-            margin: 10px 0 0 9px;
+            margin: 14% 0 0 10%;
             & a {
-                margin: 4px 0;
-                font-size: 10px;
+                margin: 6% 0;
+                font-size: 70%;
                 font-family: Arial, Helvetica, sans-serif;
                 text-decoration: none;
                 color: #ffff;
@@ -137,18 +137,17 @@ form {
     form {
         display: flex;
         & h4 {
-            font-size: 2px;
-            margin-top: 2px;
-            font-size: 12px;
+            margin-top: .5%;
+            font-size: 70%;
             height: 30%;
         }
         & select {
-            font-size: 10px;
-            height: 12px;
-            width: 450px;
+            font-size: 60%;
+            height: 35%;
+            width: 80%;
             margin: auto;
             & option {
-                font-size: 10px;
+                font-size: 100%;
             }
         }
     }
@@ -253,11 +252,11 @@ main {
                 & img {
                     margin: 0 auto;
                     height: auto;
-                    width: 70px;
+                    width: 64%;
                     display: flex;
                 }
                 & h3 {
-                    font-size: 10px;
+                    font-size: 60%;
                     width: auto;
                     display: flex;
                     justify-content: center;
@@ -265,13 +264,13 @@ main {
                 }
                 & button {
                     display: flex;
-                    font-size: 2px;
-                    height: 10px;
+                    font-size: 15%;
+                    height: 12%;
                     margin: 0 auto;
-                    width: 20px;
+                    width: 30%;
                     color: #ffff;
                     background-color: #311337;
-                    border-radius: 2px;
+                    border-radius: 10%;
                 }
             }
         }
@@ -303,15 +302,19 @@ main {
 
     @media (min-width: 576px) {
        .displace {
-            font-size: 12px;
+            font-size: 60%;
             margin-top: 10%;
+            display: flex;
             & p {
-                padding: 2px;
-                height: 7px;
+                align-items: center;
+                margin: auto .1%;
+                padding: .6%;
+                height: 30%;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             }
             & i {
-                font-size: 12px;
-                margin: 1px;
+                font-size: 140%;
+                margin: 1.2% 1% auto 1%;
             }
         }
     }
@@ -361,9 +364,9 @@ footer {
             }
         }
         & h5 {
-            font-size: 6px;
+            font-size: 30%;
             font-family: Arial, Helvetica, sans-serif;
-            margin: 2px auto;
+            margin: 1% auto;
             height: 100%;
             display: flex;
             text-align: center;
