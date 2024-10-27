@@ -147,7 +147,7 @@ form {
         display: flex;
         & h4 {
             margin-top: .5%;
-            font-size: 3.9vh;
+            font-size: 3.8vh;
             height: 30%;
         }
         & select {
@@ -255,6 +255,7 @@ main {
             margin: auto;
             width: 90%;
             height: auto;
+
             justify-content: space-between;
             & .card {
                 display: flex;
